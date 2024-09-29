@@ -1,3 +1,4 @@
+using ApiResponse;
 using ApiResponse.Enums;
 using NUnit.Framework;
 
@@ -13,7 +14,7 @@ namespace ApiResponseTests
         [Test]
         public void SuccessResponse()
         {
-            IApiResponse apiResponse = new ApiResponse.ApiResponse();
+            IApiResponse apiResponse = new ApiResponseResult();
             var response = apiResponse.SuccessResponse("Success object", "Success message");
 
             Assert.IsNotNull(response);

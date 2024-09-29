@@ -5,6 +5,28 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>JssnThony</Authors>
+    <Description>Generic custom ApiResponse</Description>
+    <PackageProjectUrl>https://github.com/jssnthony/ApiResponse</PackageProjectUrl>
+    <PackageIcon>Untitled.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/jssnthony/ApiResponse</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Api Response </PackageTags>
+    <PackageReleaseNotes>First Commit</PackageReleaseNotes>
+    <PackageId>JssnThony.ApiResponse</PackageId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\jss99\Downloads\Untitled.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

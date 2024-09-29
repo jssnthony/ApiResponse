@@ -2,7 +2,7 @@
 
 namespace ApiResponse
 {
-    public class ApiResponse : IApiResponse
+    public class ApiResponseResult : IApiResponse
     {
         public ResponseModel SuccessResponse(object data, string message)
         {
