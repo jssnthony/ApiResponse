@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
@@ -16,6 +16,7 @@
     <PackageTags>Api Response </PackageTags>
     <PackageReleaseNotes>First Commit</PackageReleaseNotes>
     <PackageId>JssnThony.ApiResponse</PackageId>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
